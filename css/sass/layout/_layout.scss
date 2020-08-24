@@ -1,0 +1,28 @@
+/* layout */
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.with-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  @media (#{$bp-larger-than-tablet}) {
+    flex-direction: row;
+    
+    main {
+      width: 68%;
+      padding: 1rem;
+    }
+    
+    aside {
+      max-width: 28%;
+      padding: 1rem;
+    }
+  }
+  
+}
