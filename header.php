@@ -42,8 +42,15 @@
 					<!-- /logo -->
 
 					<!-- nav -->
-					<nav class="nav main-navigation" role="navigation">
-						<?php skelecologize_nav(); ?>
+					<nav id="site-navigation" class="main-navigation">
+					    <button class="menu-toggle hamburger hamburger--spin" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '', 'mind_nature' ); ?>
+					        <span class="hamburger-box">
+					            <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <div class="wrapper">
+						    <?php skelecologize_nav(); ?>
+                        </div>
 					</nav>
 					<!-- /nav -->
 
