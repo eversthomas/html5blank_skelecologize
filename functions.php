@@ -100,6 +100,9 @@ function skelecologize_header_scripts() {
 
             // Modernizr
             wp_register_script( 'modernizr', get_template_directory_uri() . '/js/lib/modernizr.js', array(), '2.8.3' );
+            
+            // Navigation
+            wp_register_script( 'navi', get_template_directory_uri() . '/js/navigation.js', array(), '1.1.1' );
 
             // Custom scripts
             wp_register_script(
