@@ -42,7 +42,7 @@
 					<!-- /logo -->
 
 					<!-- nav -->
-					<nav class="nav" role="navigation">
+					<nav class="nav main-navigation" role="navigation">
 						<?php skelecologize_nav(); ?>
 					</nav>
 					<!-- /nav -->
